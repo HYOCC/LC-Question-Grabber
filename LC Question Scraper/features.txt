@@ -1,0 +1,5 @@
+-Gets data from leetcode api endpoint which has several datas such as difficulty, orblen number, problem number
+- sucessfulyl filter through all the datas into processable data 
+- one processed data is used as a scraping point to scrape the question description directly from leetcode.com
+- if process gets a error , the process gets saved and will be resuedm wher eit was left off. error proof
+- processes the output data which has question name, question number, question dificult and question descirption carefulyl to be plaeced into MysQL DB for a coding question banks
